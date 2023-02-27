@@ -29,7 +29,7 @@ enum Letter {
     N20,
 }
 
-const MAXLEN: usize = 8;
+const MAXLEN: usize = 15;
 
 impl Letter {
     #[inline(always)]
