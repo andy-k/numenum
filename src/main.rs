@@ -1,3 +1,5 @@
+// Copyright (C) 2021-2024 Andy Kurnia.
+
 // letter is an actual "letter" in a-math after blank designation
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 enum Letter {
