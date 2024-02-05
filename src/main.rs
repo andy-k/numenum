@@ -259,7 +259,7 @@ fn gen_all() -> i64 {
             | GenState::AfterOneNonzeroDigit
             | GenState::AfterTwoDigits => false,
         } {
-            attempt(env, Letter::Sub, GenState::StartOfNumber);
+            attempt(env, Letter::Sub, GenState::StartOfDivisor);
             // alt: on SoE if -ve go to NegSoN
         }
         if match state {
